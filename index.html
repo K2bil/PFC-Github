@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pierre Feuille Ciseaux</title>
+</head>
+<body>
+    <div class="score">
+        <p>Vous</p>
+        <p>IA</p>
+        <p id="score-joueur">0</p>
+        <p id="score-ordi">0</p>
+    </div>
+    <div id="reset">Recommencer</div>
+    <div class="action">
+        <p id="message">A vous de jouer!!</p>
+        <div id="next">Tour Suivant</div>
+    </div>
+    <div class="jeu">
+        <div class="choix">
+            <div class="button btn-joueur" id="pierre">
+                <i class="fas fa-play"></i>
+                <p>Pierre</p>
+            </div>
+            <div class="button btn-joueur" id="feuille">
+                <i class="fas fa-file"></i>
+                <p>Feuille</p>
+            </div>
+            <div class="button btn-joueur" id="ciseaux">
+                <i class="fas fa-hand-scissors"></i>
+                <p>Ciseaux</p>
+            </div>
+        </div>
+        <div class="choix">
+            <div class="button btn-ordi" id="iapierre">
+                <i class="fas fa-play"></i>
+                    <p>Pierre</p>
+                </div>
+                <div class="button btn-ordi" id="iafeuille">
+                    <i class="fas fa-file"></i>
+                    <p>Feuille</p>
+                </div>
+                <div class="button btn-ordir" id="iaciseaux">
+                    <i class="fas fa-hand-scissors"></i>
+                    <p>Ciseaux</p>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
